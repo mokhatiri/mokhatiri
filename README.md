@@ -1,3 +1,1 @@
-### hi it's moking,from morocco.
-### familiar with: c++ java python html linux ..
-### interested in math physics cosmologie programing engineering cybersecurity ...
+### hi it's mohammed khatiri,from morocco.
