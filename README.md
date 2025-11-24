@@ -25,7 +25,7 @@ Hi, Mohammed khatiri here.<br><br>🔭 I’m a CS student, minoring in AI and Bi
 
 
   ## 💰 You can help me by Donating
-  [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/https://patreon.com/Mokhing) 
+  [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/Mokhing) 
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
