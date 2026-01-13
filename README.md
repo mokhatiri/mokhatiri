@@ -24,8 +24,4 @@ Hi, Mohammed khatiri here.<br><br>🔭 I’m a CS student, minoring in AI and Bi
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mo.D.khatiri) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/khatirimohammed) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://www.pinterest.com/ktralt) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohamed.khatiri2006@gmail.com) 
 
 
-  ## 💰 You can help me by Donating
-  [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/Mokhing) 
-
-  
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
