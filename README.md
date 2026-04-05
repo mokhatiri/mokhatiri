@@ -2,7 +2,7 @@
 Hi, Mohammed khatiri here.<br><br>🔭 I’m a CS student, minoring in AI and Big Data.<br>👯 I’m open to collaborate on any interesting project.<br>🌱 I’m currently learning the theory of ML.<br>💬 Ask me about anything, I am open for questions
 
 # Website:
-![mokhatiri.github.io](mokhatiri.github.io)<br/>
+Visit: [https://mokhatiri.github.io](https://mokhatiri.github.io)
 
 
 # 📊 GitHub Stats:
