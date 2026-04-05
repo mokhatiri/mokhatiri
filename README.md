@@ -10,31 +10,17 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ## 📊 GitHub Stats
 
-```
-╔══════════════════════════════════════════════════════════╗
-║                     📈 STATISTICS                        ║
-╠══════════════════════════════════════════════════════════╣
-║  🗂️  Total Repositories    │  11
-║  ⭐  Total Stars           │  1
-║  📝  Total Commits (Year)  │  187
-║  🔀  Pull Requests         │  4
-║  ❗  Issues                 │  0
-║  👥  Followers             │  13
-║  👤  Following             │  12
-╚══════════════════════════════════════════════════════════╝
-```
+![Contribution Progress](generated/stats-circle.svg)
+
+`Repositories:` **11** • `Stars:` **1** • `Followers:` **13** • `Following:` **12**
+
+`Contribution target:` **500** • `Progress:` **41.6%**
 
 ## 🔥 Contribution Streak
 
-```
-╔══════════════════════════════════════════════════════════╗
-║                    🔥 STREAK STATS                       ║
-╠══════════════════════════════════════════════════════════╣
-║  📅  Total Contributions   │  206
-║  🔥  Current Streak        │  2 days
-║  🏆  Longest Streak        │  7 days
-╚══════════════════════════════════════════════════════════╝
-```
+![Streak Momentum](generated/streak-circle.svg)
+
+`Total contributions:` **208** • `Current streak:` **2 days** • `Longest streak:` **7 days** • `Momentum:` **28.6%**
 
 ## 💻 Top Languages
 
@@ -74,5 +60,5 @@ Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for m
 ---
 
 <p align="center">
-  <i>Last updated: Sun, 05 Apr 2026 17:43:10 GMT</i>
+  <i>Last updated: Sun, 05 Apr 2026 17:49:37 GMT</i>
 </p>
