@@ -10,31 +10,17 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ## 📊 GitHub Stats
 
-```
-╔══════════════════════════════════════════════════════════╗
-║                     📈 STATISTICS                        ║
-╠══════════════════════════════════════════════════════════╣
-║  🗂️  Total Repositories    │  {{TOTAL_REPOS}}
-║  ⭐  Total Stars           │  {{TOTAL_STARS}}
-║  📝  Total Commits (Year)  │  {{TOTAL_COMMITS}}
-║  🔀  Pull Requests         │  {{TOTAL_PRS}}
-║  ❗  Issues                 │  {{TOTAL_ISSUES}}
-║  👥  Followers             │  {{FOLLOWERS}}
-║  👤  Following             │  {{FOLLOWING}}
-╚══════════════════════════════════════════════════════════╝
-```
+![Contribution Progress](generated/stats-circle.svg)
+
+`Repositories:` **{{TOTAL_REPOS}}** • `Stars:` **{{TOTAL_STARS}}** • `Followers:` **{{FOLLOWERS}}** • `Following:` **{{FOLLOWING}}**
+
+`Contribution target:` **{{CONTRIB_TARGET}}** • `Progress:` **{{CONTRIB_PROGRESS}}**
 
 ## 🔥 Contribution Streak
 
-```
-╔══════════════════════════════════════════════════════════╗
-║                    🔥 STREAK STATS                       ║
-╠══════════════════════════════════════════════════════════╣
-║  📅  Total Contributions   │  {{TOTAL_CONTRIBUTIONS}}
-║  🔥  Current Streak        │  {{CURRENT_STREAK}} days
-║  🏆  Longest Streak        │  {{LONGEST_STREAK}} days
-╚══════════════════════════════════════════════════════════╝
-```
+![Streak Momentum](generated/streak-circle.svg)
+
+`Total contributions:` **{{TOTAL_CONTRIBUTIONS}}** • `Current streak:` **{{CURRENT_STREAK}} days** • `Longest streak:` **{{LONGEST_STREAK}} days** • `Momentum:` **{{STREAK_PROGRESS}}**
 
 ## 💻 Top Languages
 
