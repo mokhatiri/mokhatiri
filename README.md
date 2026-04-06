@@ -20,7 +20,7 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ![Streak Momentum](generated/streak-circle.svg)
 
-`Total contributions:` **208** • `Current streak:` **2 days** • `Longest streak:` **7 days** • `Momentum:` **28.6%**
+`Total contributions:` **208** • `Current streak:` **0 days** • `Longest streak:` **7 days** • `Momentum:` **0.0%**
 
 ## 💻 Top Languages
 
@@ -60,5 +60,5 @@ Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for m
 ---
 
 <p align="center">
-  <i>Last updated: Sun, 05 Apr 2026 17:49:37 GMT</i>
+  <i>Last updated: Mon, 06 Apr 2026 01:52:00 GMT</i>
 </p>
