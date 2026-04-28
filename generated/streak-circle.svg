@@ -17,11 +17,11 @@
   <rect width="700" height="320" rx="24" fill="url(#bg-grad)" />
 
   <circle cx="180" cy="160" r="92" fill="none" stroke="#ffffff22" stroke-width="18" />
-  <path d="M 180 68 A 92 92 0 0 1 259.6743371481684 206" fill="none" stroke="url(#ring-grad)" stroke-width="18" stroke-linecap="round" filter="url(#soft-shadow)" />
+  <path d="" fill="none" stroke="url(#ring-grad)" stroke-width="18" stroke-linecap="round" filter="url(#soft-shadow)" />
 
   <text x="180" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#ffffffb3">Current Streak</text>
-  <text x="180" y="184" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">2 days</text>
-  <text x="180" y="216" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#ffffffb3">33%</text>
+  <text x="180" y="184" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">0 days</text>
+  <text x="180" y="216" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#ffffffb3">0%</text>
 
   <text x="330" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Streak Momentum</text>
   <text x="330" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#ffffffcc">Current streak compared to your personal best</text>
