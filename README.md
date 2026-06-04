@@ -12,7 +12,7 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ![Contribution Progress](generated/stats-circle.svg)
 
-`Repositories:` **12** • `Stars:` **1** • `Followers:` **14** • `Following:` **12**
+`Repositories:` **12** • `Stars:` **1** • `Followers:` **14** • `Following:` **13**
 
 `Contribution target:` **500** • `Progress:` **23.8%**
 
@@ -60,5 +60,5 @@ Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for m
 ---
 
 <p align="center">
-  <i>Last updated: Wed, 03 Jun 2026 03:26:12 GMT</i>
+  <i>Last updated: Thu, 04 Jun 2026 02:55:40 GMT</i>
 </p>
