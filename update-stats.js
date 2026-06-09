@@ -1,5 +1,6 @@
 const https = require('https');
 const fs = require('fs');
+const path = require('path');
 
 const USERNAME = process.env.USERNAME || 'mokhatiri';
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -25,6 +26,18 @@ query($username: String!) {
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
       totalCount
       nodes {
+        name
+        owner {
+          login
+        }
+        defaultBranchRef {
+          name
+          target {
+            ... on Commit {
+              oid
+            }
+          }
+        }
         stargazerCount
         primaryLanguage {
           name
@@ -73,6 +86,95 @@ function graphqlRequest(query, variables) {
     req.write(data);
     req.end();
   });
+}
+
+function apiRequestJson(method, apiPath) {
+  return new Promise((resolve, reject) => {
+    const options = {
+      hostname: 'api.github.com',
+      path: apiPath,
+      method,
+      headers: {
+        'Authorization': `Bearer ${TOKEN}`,
+        'User-Agent': 'GitHub-Stats-Action',
+        'Accept': 'application/vnd.github+json'
+      }
+    };
+
+    const req = https.request(options, (res) => {
+      let body = '';
+      res.on('data', chunk => body += chunk);
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(body));
+        } catch (e) {
+          reject(e);
+        }
+      });
+    });
+
+    req.on('error', reject);
+    req.end();
+  });
+}
+
+function apiRequestText(apiPath) {
+  return new Promise((resolve, reject) => {
+    const options = {
+      hostname: 'raw.githubusercontent.com',
+      path: apiPath,
+      method: 'GET',
+      headers: {
+        'User-Agent': 'GitHub-Stats-Action'
+      }
+    };
+
+    const req = https.request(options, (res) => {
+      let body = '';
+      res.on('data', chunk => body += chunk);
+      res.on('end', () => resolve(body));
+    });
+
+    req.on('error', reject);
+    req.end();
+  });
+}
+
+function isCountableTextFile(filePath) {
+  const ext = path.extname(filePath).toLowerCase();
+  const ignoredExts = new Set([
+    '.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.ico',
+    '.pdf', '.zip', '.gz', '.bz2', '.7z', '.mp4', '.mp3', '.wav',
+    '.woff', '.woff2', '.ttf', '.eot', '.db', '.sqlite', '.exe', '.dll'
+  ]);
+  const ignoredNames = new Set(['package-lock.json', 'yarn.lock', 'pnpm-lock.yaml']);
+
+  return !ignoredExts.has(ext) && !ignoredNames.has(path.basename(filePath));
+}
+
+async function countRepoLinesOfCode(repo) {
+  if (!repo.defaultBranchRef?.target?.oid) {
+    return 0;
+  }
+
+  const treePath = `/repos/${repo.owner.login}/${repo.name}/git/trees/${repo.defaultBranchRef.target.oid}?recursive=1`;
+  const treeResponse = await apiRequestJson('GET', treePath);
+  const entries = treeResponse.tree || [];
+
+  let totalLines = 0;
+  const textEntries = entries.filter(entry => entry.type === 'blob' && isCountableTextFile(entry.path));
+
+  for (const entry of textEntries) {
+    const rawPath = `/${repo.owner.login}/${repo.name}/${repo.defaultBranchRef.target.oid}/${entry.path}`;
+    try {
+      const content = await apiRequestText(rawPath);
+      totalLines += content.split(/\r\n|\r|\n/).length;
+    } catch {
+      // Skip unreadable blobs and keep the total stable.
+    }
+  }
+
+  return totalLines;
 }
 
 function calculateStreak(weeks) {
@@ -239,6 +341,8 @@ async function main() {
     const { currentStreak, longestStreak } = calculateStreak(calendar.weeks);
     const topLangs = getTopLanguages(user.repositories.nodes);
     const totalLangRepos = topLangs.reduce((sum, [, count]) => sum + count, 0);
+    const totalLinesOfCode = (await Promise.all(user.repositories.nodes.map(countRepoLinesOfCode)))
+      .reduce((sum, count) => sum + count, 0);
 
     // Progress for circle cards
     const contributionTarget = Math.max(500, Math.ceil(calendar.totalContributions / 500) * 500);
@@ -289,6 +393,7 @@ async function main() {
       '{{TOTAL_PRS}}': contrib.totalPullRequestContributions,
       '{{TOTAL_ISSUES}}': contrib.totalIssueContributions,
       '{{TOTAL_CONTRIBUTIONS}}': calendar.totalContributions,
+      '{{TOTAL_LINES_OF_CODE}}': totalLinesOfCode.toLocaleString(),
       '{{CURRENT_STREAK}}': currentStreak,
       '{{LONGEST_STREAK}}': longestStreak,
       '{{FOLLOWERS}}': user.followers.totalCount,

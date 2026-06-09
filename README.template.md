@@ -12,7 +12,7 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ![Contribution Progress](generated/stats-circle.svg)
 
-`Repositories:` **{{TOTAL_REPOS}}** • `Stars:` **{{TOTAL_STARS}}** • `Followers:` **{{FOLLOWERS}}** • `Following:` **{{FOLLOWING}}**
+`Repositories:` **{{TOTAL_REPOS}}** • `Stars:` **{{TOTAL_STARS}}** • `Lines of code:` **{{TOTAL_LINES_OF_CODE}}** • `Followers:` **{{FOLLOWERS}}** • `Following:` **{{FOLLOWING}}**
 
 `Contribution target:` **{{CONTRIB_TARGET}}** • `Progress:` **{{CONTRIB_PROGRESS}}**
 
