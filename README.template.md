@@ -2,10 +2,6 @@
 
 A computer science enthusiast specializing in **Artificial Intelligence** and **Big Data**, passionate about exploring and analyzing large-scale data.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-mokhatiri.github.io-blue?style=flat-square&logo=github)](https://mokhatiri.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-khatirimohammed-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/khatirimohammed)
-[![Email](https://img.shields.io/badge/Email-mohamed.khatiri2006%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:mohamed.khatiri2006@gmail.com)
-
 ---
 
 ## 📊 GitHub Stats
@@ -51,6 +47,12 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for more projects!
 
 ---
+
+### Contact me 
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-mokhatiri.github.io-blue?style=flat-square&logo=github)](https://mokhatiri.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-khatirimohammed-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/khatirimohammed)
+[![Email](https://img.shields.io/badge/Email-mohamed.khatiri2006%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:mohamed.khatiri2006@gmail.com)
 
 <p align="center">
   <i>Last updated: {{LAST_UPDATED}}</i>
