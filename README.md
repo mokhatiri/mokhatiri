@@ -8,27 +8,27 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ![Contribution Progress](generated/stats-circle.svg)
 
-`Repositories:` **12** • `Stars:` **1** • `Lines of code:` **255,341** • `Followers:` **14** • `Following:` **13**
+`Repositories:` **13** • `Stars:` **1** • `Lines of code:` **259,071** • `Followers:` **14** • `Following:` **13**
 
-`Contribution target:` **500** • `Progress:` **24.4%**
+`Contribution target:` **500** • `Progress:` **26.4%**
 
 ## 🔥 Contribution Streak
 
 ![Streak Momentum](generated/streak-circle.svg)
 
-`Total contributions:` **122** • `Current streak:` **1 days** • `Longest streak:` **6 days** • `Momentum:` **16.7%**
+`Total contributions:` **132** • `Current streak:` **0 days** • `Longest streak:` **6 days** • `Momentum:` **0.0%**
 
 ## 💻 Top Languages
 
 ```
-Vue             ██████░░░░░░░░░░░░░░ 30.0%
-JavaScript      ██░░░░░░░░░░░░░░░░░░ 10.0%
-Python          ██░░░░░░░░░░░░░░░░░░ 10.0%
-C++             ██░░░░░░░░░░░░░░░░░░ 10.0%
-Java            ██░░░░░░░░░░░░░░░░░░ 10.0%
-Jupyter Notebook ██░░░░░░░░░░░░░░░░░░ 10.0%
-Rust            ██░░░░░░░░░░░░░░░░░░ 10.0%
-Go              ██░░░░░░░░░░░░░░░░░░ 10.0%
+Vue             █████░░░░░░░░░░░░░░░ 27.3%
+JavaScript      ████░░░░░░░░░░░░░░░░ 18.2%
+Python          ██░░░░░░░░░░░░░░░░░░ 9.1%
+C++             ██░░░░░░░░░░░░░░░░░░ 9.1%
+Java            ██░░░░░░░░░░░░░░░░░░ 9.1%
+Jupyter Notebook ██░░░░░░░░░░░░░░░░░░ 9.1%
+Rust            ██░░░░░░░░░░░░░░░░░░ 9.1%
+Go              ██░░░░░░░░░░░░░░░░░░ 9.1%
 ```
 
 ---
@@ -57,10 +57,10 @@ Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for m
 
 ### Contact me 
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-mokhatiri.github.io-blue?style=flat-square&logo=github)](https://mokhatiri.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-mokhatiri.github.io-blue?style=flat-square&logo=github)](https://portfolio-backend-mu-mauve.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-khatirimohammed-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/khatirimohammed)
 [![Email](https://img.shields.io/badge/Email-mohamed.khatiri2006%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:mohamed.khatiri2006@gmail.com)
 
 <p align="center">
-  <i>Last updated: Tue, 09 Jun 2026 10:21:44 GMT</i>
+  <i>Last updated: Wed, 10 Jun 2026 02:45:09 GMT</i>
 </p>
