@@ -42,7 +42,7 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ## 📌 Featured Projects
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-mokhatiri.github.io-blue?style=for-the-badge)](https://mokhatiri.github.io)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-mokhatiri.github.io-blue?style=for-the-badge)](https://portfolio-backend-mu-mauve.vercel.app/)
 
 Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for more projects!
 
