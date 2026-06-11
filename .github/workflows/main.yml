@@ -1,4 +1,4 @@
-name: Update README
+name: Update README Stats
 
 on:
   schedule:
@@ -12,6 +12,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -20,18 +22,27 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: "20"
 
       - name: Update stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: mokhatiri
         run: node update-stats.js
 
-      - name: Commit and push changes
+      - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions[bot]"
 
-          git add README.md
-          git commit -m "📊 Update GitHub stats" || exit 0
+          git add README.md generated/*.svg
+
+          if git diff --cached --quiet; then
+            echo "No README stats changes to commit."
+            exit 0
+          fi
+
+          git commit -m "📊 Update GitHub stats"
 
           git pull --rebase origin master
-          git push origin master
+          git push origin HEAD:master
