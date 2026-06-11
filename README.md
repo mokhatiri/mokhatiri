@@ -8,15 +8,15 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ![Contribution Progress](generated/stats-circle.svg)
 
-`Repositories:` **13** • `Stars:` **1** • `Lines of code:` **259,071** • `Followers:` **14** • `Following:` **13**
+`Repositories:` **13** • `Stars:` **1** • `Lines of code:` **259,081** • `Followers:` **14** • `Following:` **14**
 
-`Contribution target:` **500** • `Progress:` **26.4%**
+`Contribution target:` **500** • `Progress:` **27.2%**
 
 ## 🔥 Contribution Streak
 
 ![Streak Momentum](generated/streak-circle.svg)
 
-`Total contributions:` **132** • `Current streak:` **0 days** • `Longest streak:` **6 days** • `Momentum:` **0.0%**
+`Total contributions:` **136** • `Current streak:` **1 days** • `Longest streak:` **6 days** • `Momentum:` **16.7%**
 
 ## 💻 Top Languages
 
@@ -49,7 +49,7 @@ Go              ██░░░░░░░░░░░░░░░░░░ 9.1
 
 ## 📌 Featured Projects
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-mokhatiri.github.io-blue?style=for-the-badge)](https://mokhatiri.github.io)
+[![Portfolio](https://img.shields.io/badge/%F0%9F%8C%90%20Portfolio-portfolio--backend--mu--mauve.vercel.app-blue)](https://portfolio-backend-mu-mauve.vercel.app/)
 
 Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for more projects!
 
@@ -62,5 +62,5 @@ Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for m
 [![Email](https://img.shields.io/badge/Email-mohamed.khatiri2006%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:mohamed.khatiri2006@gmail.com)
 
 <p align="center">
-  <i>Last updated: Thu, 11 Jun 2026 02:53:39 GMT</i>
+  <i>Last updated: Thu, 11 Jun 2026 09:49:41 GMT</i>
 </p>
