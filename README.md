@@ -8,7 +8,7 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ![Contribution Progress](generated/stats-circle.svg)
 
-`Repositories:` **13** • `Stars:` **1** • `Lines of code:` **259,926** • `Followers:` **14** • `Following:` **14**
+`Repositories:` **13** • `Stars:` **1** • `Lines of code:` **259,926** • `Followers:` **15** • `Following:` **14**
 
 `Contribution target:` **500** • `Progress:` **27.6%**
 
@@ -62,5 +62,5 @@ Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for m
 [![Email](https://img.shields.io/badge/Email-mohamed.khatiri2006%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:mohamed.khatiri2006@gmail.com)
 
 <p align="center">
-  <i>Last updated: Tue, 16 Jun 2026 17:04:45 GMT</i>
+  <i>Last updated: Tue, 16 Jun 2026 20:58:21 GMT</i>
 </p>
