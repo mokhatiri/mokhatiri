@@ -17,10 +17,10 @@
   <rect width="700" height="320" rx="24" fill="url(#bg-grad)" />
 
   <circle cx="180" cy="160" r="92" fill="none" stroke="#ffffff22" stroke-width="18" />
-  <path d="M 180 68 A 92 92 0 0 1 269.90866736827377 179.50465411282903" fill="none" stroke="url(#ring-grad)" stroke-width="18" stroke-linecap="round" filter="url(#soft-shadow)" />
+  <path d="M 180 68 A 92 92 0 0 1 270.1466648193507 178.37331820732544" fill="none" stroke="url(#ring-grad)" stroke-width="18" stroke-linecap="round" filter="url(#soft-shadow)" />
 
   <text x="180" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#ffffffb3">Contributions</text>
-  <text x="180" y="184" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">142</text>
+  <text x="180" y="184" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">141</text>
   <text x="180" y="216" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#ffffffb3">28%</text>
 
   <text x="330" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Contribution Progress</text>
