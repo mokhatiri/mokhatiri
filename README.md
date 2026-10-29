@@ -8,15 +8,15 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ![Contribution Progress](generated/stats-circle.svg)
 
-`Repositories:` **14** • `Stars:` **0** • `Lines of code:` **853,119** • `Followers:` **17** • `Following:` **14**
+`Repositories:` **14** • `Stars:` **0** • `Lines of code:` **706,489** • `Followers:` **16** • `Following:` **14**
 
-`Contribution target:` **500** • `Progress:` **27.8%**
+`Contribution target:` **500** • `Progress:` **28.4%**
 
 ## 🔥 Contribution Streak
 
 ![Streak Momentum](generated/streak-circle.svg)
 
-`Total contributions:` **139** • `Current streak:` **0 days** • `Longest streak:` **6 days** • `Momentum:` **0.0%**
+`Total contributions:` **142** • `Current streak:` **1 days** • `Longest streak:` **6 days** • `Momentum:` **16.7%**
 
 ## 💻 Top Languages
 
@@ -62,5 +62,5 @@ Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for m
 [![Email](https://img.shields.io/badge/Email-mohamed.khatiri2006%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:mohamed.khatiri2006@gmail.com)
 
 <p align="center">
-  <i>Last updated: Thu, 29 Oct 2026 12:36:32 GMT</i>
+  <i>Last updated: Thu, 29 Oct 2026 22:37:03 GMT</i>
 </p>
