@@ -8,27 +8,27 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ![Contribution Progress](generated/stats-circle.svg)
 
-`Repositories:` **14** • `Stars:` **0** • `Lines of code:` **706,489** • `Followers:` **16** • `Following:` **14**
+`Repositories:` **15** • `Stars:` **0** • `Lines of code:` **706,822** • `Followers:` **16** • `Following:` **15**
 
-`Contribution target:` **500** • `Progress:` **27.2%**
+`Contribution target:` **500** • `Progress:` **27.8%**
 
 ## 🔥 Contribution Streak
 
 ![Streak Momentum](generated/streak-circle.svg)
 
-`Total contributions:` **136** • `Current streak:` **0 days** • `Longest streak:` **6 days** • `Momentum:` **0.0%**
+`Total contributions:` **139** • `Current streak:` **1 days** • `Longest streak:` **6 days** • `Momentum:` **16.7%**
 
 ## 💻 Top Languages
 
 ```
-Vue             █████░░░░░░░░░░░░░░░ 25.0%
-JavaScript      ███░░░░░░░░░░░░░░░░░ 16.7%
-Python          ███░░░░░░░░░░░░░░░░░ 16.7%
-C++             ██░░░░░░░░░░░░░░░░░░ 8.3%
-Java            ██░░░░░░░░░░░░░░░░░░ 8.3%
-Jupyter Notebook ██░░░░░░░░░░░░░░░░░░ 8.3%
-Rust            ██░░░░░░░░░░░░░░░░░░ 8.3%
-Go              ██░░░░░░░░░░░░░░░░░░ 8.3%
+Python          █████░░░░░░░░░░░░░░░ 23.1%
+Vue             █████░░░░░░░░░░░░░░░ 23.1%
+JavaScript      ███░░░░░░░░░░░░░░░░░ 15.4%
+C++             ██░░░░░░░░░░░░░░░░░░ 7.7%
+Java            ██░░░░░░░░░░░░░░░░░░ 7.7%
+Jupyter Notebook ██░░░░░░░░░░░░░░░░░░ 7.7%
+Rust            ██░░░░░░░░░░░░░░░░░░ 7.7%
+Go              ██░░░░░░░░░░░░░░░░░░ 7.7%
 ```
 
 ---
@@ -62,5 +62,5 @@ Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for m
 [![Email](https://img.shields.io/badge/Email-mohamed.khatiri2006%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:mohamed.khatiri2006@gmail.com)
 
 <p align="center">
-  <i>Last updated: Thu, 19 Nov 2026 00:04:14 GMT</i>
+  <i>Last updated: Thu, 19 Nov 2026 15:30:10 GMT</i>
 </p>
