@@ -16,7 +16,7 @@ A computer science enthusiast specializing in **Artificial Intelligence** and **
 
 ![Streak Momentum](generated/streak-circle.svg)
 
-`Total contributions:` **134** • `Current streak:` **1 days** • `Longest streak:` **5 days** • `Momentum:` **20.0%**
+`Total contributions:` **134** • `Current streak:` **0 days** • `Longest streak:` **5 days** • `Momentum:` **0.0%**
 
 ## 💻 Top Languages
 
@@ -62,5 +62,5 @@ Check out my [repositories](https://github.com/mokhatiri?tab=repositories) for m
 [![Email](https://img.shields.io/badge/Email-mohamed.khatiri2006%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:mohamed.khatiri2006@gmail.com)
 
 <p align="center">
-  <i>Last updated: Wed, 25 Nov 2026 21:25:24 GMT</i>
+  <i>Last updated: Thu, 26 Nov 2026 07:38:29 GMT</i>
 </p>
